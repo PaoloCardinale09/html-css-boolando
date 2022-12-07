@@ -1,0 +1,66 @@
+/* HEADER */
+
+header {
+    height: 60px;
+    color: white;
+    line-height: 60px;
+
+    /* Debug */
+    background-color: blue;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+
+
+    /* Debug */
+
+}
+
+.header-content {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* MAIN */
+
+.card {
+    width: 32%;
+    height: 550px;
+    margin-bottom: 6rem;
+
+
+    /* Debug */
+    background-color: red;
+}
+
+.main-content {
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 3rem 0;
+    justify-content: space-between;
+}
+
+.pics {
+
+
+    /* debug */
+    width: 100%;
+    height: 100%;
+}
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+    line-height: 100px;
+
+    /* Debug */
+    background-color: #333;
+    color: white;
+}
+
+.foot {
+    justify-content: space-between;
+}
