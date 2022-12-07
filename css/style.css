@@ -6,12 +6,13 @@ header {
     line-height: 60px;
 
     /* Debug */
-    background-color: blue;
+    background-color: #ff6801;
 }
 
 .nav {
     display: flex;
     gap: 1rem;
+    color: #fff;
 
 
     /* Debug */
@@ -21,6 +22,16 @@ header {
 .header-content {
     justify-content: space-between;
     align-items: center;
+    height: 60px;
+}
+
+.logo {
+    height: 100%;
+}
+
+.logo a img {
+    height: 50%;
+    vertical-align: middle;
 }
 
 /* MAIN */

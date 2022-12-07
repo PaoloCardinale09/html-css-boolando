@@ -14,3 +14,13 @@
 .c-flex {
 	display: flex;
 }
+
+ul {
+	list-style-type: none;
+}
+
+li,
+a {
+	text-decoration: none;
+	color: currentColor;
+}
