@@ -41,7 +41,9 @@ header {
     height: 550px;
 }
 
-.testo {}
+.testo {
+    margin: .5rem 0;
+}
 
 .description {
     font-weight: 600;
@@ -93,7 +95,6 @@ header {
 
 footer {
     height: 100px;
-    line-height: 100px;
 
     /* Debug */
     background-color: #333;
@@ -102,4 +103,25 @@ footer {
 
 .foot {
     justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    line-height: 2rem;
+    border-bottom: 2px solid #fff;
+}
+
+.foot-left>h2>a {
+    font-size: 1.3rem;
+}
+
+.foot-left>a {
+    margin: 0 .2rem;
+}
+
+.foot-right {
+    flex-direction: column;
+}
+
+.foot-right>.logo-social>a>i {
+    font-size: 1.2rem;
+    margin: 0 .2rem;
 }
