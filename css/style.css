@@ -5,6 +5,9 @@ header {
     color: white;
     line-height: 60px;
     background-color: #ff6801;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .nav {
@@ -61,8 +64,9 @@ header {
 .main-content {
     flex-wrap: wrap;
     gap: 1rem;
-    padding: 3rem 0;
+    padding: 7rem 0 3rem 0;
     justify-content: space-between;
+
 }
 
 .pics {
@@ -95,8 +99,7 @@ header {
 
 footer {
     height: 100px;
-
-    /* Debug */
+    border-bottom: 2px solid #fff;
     background-color: #333;
     color: white;
 }
@@ -106,7 +109,7 @@ footer {
     height: 100px;
     align-items: center;
     line-height: 2rem;
-    border-bottom: 2px solid #fff;
+
 }
 
 .foot-left>h2>a {
