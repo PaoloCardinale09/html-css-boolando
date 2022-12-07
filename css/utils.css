@@ -24,3 +24,25 @@ a {
 	text-decoration: none;
 	color: currentColor;
 }
+
+.discount {
+	background-color: #ff0000;
+	color: #fff;
+	bottom: 5px;
+	left: 0;
+	bottom: 40px;
+	font-weight: 600;
+	padding: .2rem .6rem;
+	font-size: .8rem;
+}
+
+.sustainable {
+	background-color: #008001;
+	color: #fff;
+	bottom: 5px;
+	left: 55px;
+	bottom: 40px;
+	font-weight: 600;
+	padding: .2rem .6rem;
+	font-size: .8rem;
+}
