@@ -65,14 +65,28 @@ header {
 
 .pics {
     position: relative;
-
-    /* debug */
-    /* width: 100%;
-    height: 100%; */
+    height: 100%;
 }
 
 .pics>span {
     position: absolute;
+}
+
+.second {
+    display: none;
+}
+
+.pics:hover .first {
+    display: none;
+}
+
+.pics:hover .second {
+    display: block;
+}
+
+.hearts:hover {
+    color: red;
+    cursor: pointer;
 }
 
 /* FOOTER */
