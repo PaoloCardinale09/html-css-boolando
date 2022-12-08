@@ -74,7 +74,12 @@ header {
     height: 100%;
 }
 
+/* 
 .pics>span {
+    position: absolute;
+} */
+
+.hearts {
     position: absolute;
 }
 
